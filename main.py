@@ -1,15 +1,18 @@
 from telebot.types import Message, CallbackQuery
 from telebot import types
 import telebot.types
-from flask import request
+from flask import Flask, request
 from decouple import config
 import os
 
 from bot_requests.city_selection import choice_city
 from handlers import count_photo, hotel_count, menu
 from users import User, users_dict
-from loader import logger, bot, server
+from loader import logger, bot
 from check import check_user
+
+
+server = Flask(__name__)
 
 
 @bot.message_handler(commands=['start'])

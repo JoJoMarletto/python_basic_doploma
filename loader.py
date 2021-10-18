@@ -2,18 +2,14 @@ import telebot
 from telebot.types import Message
 from decouple import config
 from loguru import logger
-from flask import Flask
 
 from users import User, users_dict
 
 
 bot = telebot.TeleBot(token=config('TOKEN'))
 
-server = Flask(__name__)
-
 logger.add('debug.log', format='{time} | {level} | {file} | {function} | {message} | {line}',
            level='DEBUG', encoding='UTF-8')
-
 
 
 @logger.catch

@@ -1,18 +1,14 @@
 import telebot.types
 from telebot.types import Message, CallbackQuery
 from telebot import types
-from flask import Flask, request
+from flask import request
 import os
 from bot_requests.city_selection import choice_city
 from handlers import count_photo, hotel_count, menu
 from users import User, users_dict
-from loader import logger, bot
+from loader import logger, bot, server
 from check import check_user
-
-
-TOKEN = '1996977100:AAHb6S8m4COxizhTBwDlKSZ7k1Zvtp1ehis'
-APP_URL = f'https://hotelhunter.herokuapp.com/{TOKEN}'
-server = Flask(__name__)
+from decouple import config
 
 
 @bot.message_handler(commands=['start'])
@@ -82,7 +78,7 @@ def get_menu_button(call: CallbackQuery) -> None:
             bot.register_next_step_handler(call.message, hotel_count)
 
 
-@server.route('/' + TOKEN, methods=['PORT', 'POST', 'GET'])
+@server.route('/' + config('TOKEN'), methods=['PORT', 'POST', 'GET'])
 def get_message():
     json_string = request.get_data().decode('utf-8')
     update = telebot.types.Update.de_json(json_string)
@@ -93,7 +89,7 @@ def get_message():
 @server.route('/')
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url=APP_URL)
+    bot.set_webhook(url=f'{config("APP_URL")}{config("TOKEN")}')
     return '!', 200
 
 

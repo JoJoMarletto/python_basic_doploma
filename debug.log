@@ -1,0 +1,499 @@
+2021-10-17T15:01:32.204419+0300 | DEBUG | check.py | check_user | Проверка пользователя по Id | 11
+2021-10-17T15:01:32.205421+0300 | DEBUG | main.py | get_text | Записали метод сортировки: /lowprice | 31
+2021-10-17T15:01:42.683285+0300 | DEBUG | city_selection.py | choice_city | Записали название города от пользователя | 22
+2021-10-17T15:01:42.683285+0300 | DEBUG | check.py | check_choice_city | Проверка ввода названия города | 80
+2021-10-17T15:01:42.919298+0300 | DEBUG | city_selection.py | choice_city | Сделали запрос на получение списка названий городов, статус ответа:429 | 29
+2021-10-17T15:01:42.919298+0300 | DEBUG | city_selection.py | choice_city | Проблема запроса на получение списка названий городов | 34
+2021-10-17T15:01:46.061506+0300 | DEBUG | city_selection.py | choice_city | Записали название города от пользователя | 22
+2021-10-17T15:01:46.062507+0300 | DEBUG | check.py | check_choice_city | Проверка ввода названия города | 80
+2021-10-17T15:01:46.211514+0300 | DEBUG | city_selection.py | choice_city | Сделали запрос на получение списка названий городов, статус ответа:429 | 29
+2021-10-17T15:01:46.211514+0300 | DEBUG | city_selection.py | choice_city | Проблема запроса на получение списка названий городов | 34
+2021-10-17T15:02:43.527034+0300 | DEBUG | check.py | check_user | Проверка пользователя по Id | 11
+2021-10-17T15:02:43.528034+0300 | DEBUG | main.py | get_text | Записали метод сортировки: /bestdeal | 31
+2021-10-17T15:02:46.728698+0300 | DEBUG | city_selection.py | choice_city | Записали название города от пользователя | 22
+2021-10-17T15:02:46.729698+0300 | DEBUG | check.py | check_choice_city | Проверка ввода названия города | 80
+2021-10-17T15:02:52.321105+0300 | DEBUG | city_selection.py | choice_city | Сделали запрос на получение списка названий городов, статус ответа:200 | 29
+2021-10-17T15:02:52.679214+0300 | DEBUG | city_selection.py | list_cities | Создаем список городов | 54
+2021-10-17T15:02:52.679214+0300 | DEBUG | city_selection.py | create_keyboard | Создание клавиатуры с выбором города | 72
+2021-10-17T15:03:00.211044+0300 | DEBUG | check.py | check_hotel_count | Проверка ввода количество отелей | 40
+2021-10-17T15:03:00.211044+0300 | DEBUG | handlers.py | hotel_count | Записываем количество отелей | 34
+2021-10-17T15:03:04.665718+0300 | DEBUG | check.py | check_min_max_price | Проверка ввода максимальной и минимальной цены | 54
+2021-10-17T15:03:04.666720+0300 | DEBUG | handlers.py | min_max_price | Записываем минимальную и максимальную цену отеля | 63
+2021-10-17T15:03:08.420500+0300 | DEBUG | check.py | check_min_max_dist | Проверка ввода максимальной и минимальной дистанции | 67
+2021-10-17T15:03:14.204947+0300 | DEBUG | methods_request.py | best_deal | Сдедали запрос на поиск отелей по сортировке best_deal, статус ответа: 200 | 77
+2021-10-17T15:03:14.650967+0300 | DEBUG | methods_request.py | search_hotels | Производится поиск отелей | 101
+2021-10-17T15:03:14.651967+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.651967+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 544507, 'name': 'VIP-Kvartira', 'starRating': 3.5, 'urls': {}, 'address': {'streetAddress': 'ул. Ленинградская, 5', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '22006', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'landmarks': [{'label': 'Центр города', 'distance': '0,1 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '31 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '12,133 RUB', 'exactCurrent': 12132.75, 'info': 'за 1 квартиру на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {}, 'messaging': {'scarcity': '1 остался в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.901143, 'lon': 27.560172}, 'roomsLeft': 1, 'providerType': 'LOCAL', 'supplierHotelId': 12248575, 'vrBadge': 'Апартаменты', 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/13000000/12250000/12248600/12248575/f242a396_y.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.651967+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.652968+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.652968+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.652968+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 637581664, 'name': 'Гостиница «Европа» Минск', 'starRating': 5.0, 'urls': {}, 'address': {'streetAddress': 'ул. Интернациональная, 28', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220030', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.8, 'rating': '8,8', 'total': 100, 'scale': 10, 'badge': 'fabulous', 'badgeText': 'Превосходно'}, 'landmarks': [{'label': 'Центр города', 'distance': '0,3 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '31 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '7,194 RUB', 'exactCurrent': 7193.79, 'old': '7,993 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': True}, 'type': 'Dual'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '3 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.90286, 'lon': 27.55669}, 'roomsLeft': 3, 'providerType': 'LOCAL', 'supplierHotelId': 19893177, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/20000000/19900000/19893200/19893177/530ddc26_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.655973+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.655973+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.655973+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.655973+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 191253920, 'name': 'Гостиница «Гарни»', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'ул.\xa0Интернациональная, 11', 'extendedAddress': 'Центральный р-н', 'locality': 'Минск', 'postalCode': '220030', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.6, 'rating': '8,6', 'total': 72, 'scale': 10, 'badge': 'fabulous', 'badgeText': 'Превосходно'}, 'landmarks': [{'label': 'Центр города', 'distance': '0,4 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '3,286 RUB', 'exactCurrent': 3285.78, 'old': '3,651 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': True}, 'type': 'Dual'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '1 остался в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.90151, 'lon': 27.55379}, 'roomsLeft': 1, 'providerType': 'LOCAL', 'supplierHotelId': 5945435, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/6000000/5950000/5945500/5945435/3ffb65a1_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.656968+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.656968+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.656968+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.656968+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 297713568, 'name': 'Отель «Губернский»', 'starRating': 4.0, 'urls': {}, 'address': {'streetAddress': 'ул.\xa0Освобождения, 9', 'extendedAddress': 'Центральный р-н', 'locality': 'Минск', 'postalCode': '220004', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 9.4, 'rating': '9,4', 'total': 9, 'scale': 10, 'badge': 'exceptional', 'badgeText': 'Великолепно'}, 'landmarks': [{'label': 'Центр города', 'distance': '0,4 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '5,109 RUB', 'exactCurrent': 5108.52, 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': True}, 'type': 'HC'}, 'neighbourhood': 'Центр Минска', 'deals': {}, 'messaging': {'scarcity': '4 осталось в нашем приложении'}, 'badging': {}, 'coordinate': {'lat': 53.901513, 'lon': 27.553789}, 'roomsLeft': 4, 'providerType': 'LOCAL', 'supplierHotelId': 9272299, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/10000000/9280000/9272300/9272299/8cfc7427_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.656968+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.657968+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.657968+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.657968+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 202619104, 'name': '«Президент-Отель» Минск', 'starRating': 5.0, 'urls': {}, 'address': {'streetAddress': 'ул.Кирова, 18, Ленинский район', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220030', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.6, 'rating': '8,6', 'total': 82, 'scale': 10, 'badge': 'fabulous', 'badgeText': 'Превосходно'}, 'landmarks': [{'label': 'Центр города', 'distance': '0,4 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '31 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '7,038 RUB', 'exactCurrent': 7038.41, 'old': '8,798 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-445'}, 'messaging': {}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.89964, 'lon': 27.5654}, 'providerType': 'LOCAL', 'supplierHotelId': 6300597, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/7000000/6310000/6300600/6300597/fc409766_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.657968+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.657968+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.658968+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.658968+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1213608128, 'name': 'Хостел Urban', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'ул. Заборского, 3', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220029', 'region': 'Минская обл.', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 9.4, 'rating': '9,4', 'total': 15, 'scale': 10, 'badge': 'exceptional', 'badgeText': 'Великолепно'}, 'landmarks': [{'label': 'Центр города', 'distance': '0,5 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '31 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '690 RUB', 'exactCurrent': 689.65, 'old': '766 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': True}, 'type': 'Dual'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13', 'coordinate': {'lat': 53.90454, 'lon': 27.56152}, 'providerType': 'LOCAL', 'supplierHotelId': 37894004, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/38000000/37900000/37894100/37894004/a7da9815_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.658968+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.658968+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.658968+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.659974+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.659974+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 291926880, 'name': 'Hotel Monastyrski Minsk City Centre', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'Ул. Кирилла и Мефодия, 6', 'extendedAddress': 'Центральный район', 'locality': 'Минск', 'postalCode': '220030', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.8, 'rating': '8,8', 'total': 145, 'scale': 10, 'badge': 'fabulous', 'badgeText': 'Превосходно'}, 'landmarks': [{'label': 'Центр города', 'distance': '0,6 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '31 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '3,760 RUB', 'exactCurrent': 3760.44, 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': True}, 'type': 'Dual'}, 'neighbourhood': 'Центр Минска', 'deals': {}, 'messaging': {}, 'badging': {'hotelBadge': {'type': 'vipBasic', 'label': 'VIP'}}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.90515, 'lon': 27.55668}, 'providerType': 'LOCAL', 'supplierHotelId': 9091465, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/10000000/9100000/9091500/9091465/d85a1552_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.659974+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.659974+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.660968+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.660968+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 735787264, 'name': 'Отель «Минск»', 'starRating': 4.0, 'urls': {}, 'address': {'streetAddress': 'пр-т Независимости, 11', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220000', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.0, 'rating': '8,0', 'total': 202, 'scale': 10, 'badge': 'very-good', 'badgeText': 'Очень хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '0,7 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '3,113 RUB', 'exactCurrent': 3113.0, 'old': '3,459 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': False}, 'type': 'Dual'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.89683, 'lon': 27.55092}, 'providerType': 'LOCAL', 'supplierHotelId': 22962102, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/23000000/22970000/22962200/22962102/3d2967c6_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.660968+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.660968+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.661968+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.661968+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 323460288, 'name': 'Бутик-отель Buta', 'starRating': 5.0, 'urls': {}, 'address': {'streetAddress': 'ул.\xa0Мясникова, 7', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220030', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.6, 'rating': '8,6', 'total': 35, 'scale': 10, 'badge': 'fabulous', 'badgeText': 'Превосходно'}, 'landmarks': [{'label': 'Центр города', 'distance': '0,7 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '5,460 RUB', 'exactCurrent': 5459.73, 'old': '6,066 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {'specialDeal': {'dealText': 'Только при бронировании с мобильного устройства: сэкономьте 10\xa0%'}, 'priceReasoning': 'DRR-444'}, 'messaging': {}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.90003, 'lon': 27.54797}, 'providerType': 'LOCAL', 'supplierHotelId': 10076884, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/11000000/10080000/10076900/10076884/d9d789d8_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.661968+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.661968+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.662974+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.662974+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1270067520, 'name': 'Апартаменты iRent.by, пл. Ленина', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'ул. Ленинградская, 1А', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220005', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 4.0, 'rating': '4,0', 'total': 1, 'scale': 10}, 'landmarks': [{'label': 'Центр города', 'distance': '0,9 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '12,005 RUB', 'exactCurrent': 12005.03, 'old': '13,339 RUB', 'info': 'за 1 квартиру на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '2 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13', 'coordinate': {'lat': 53.89335, 'lon': 27.55088}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 39658360, 'vrBadge': 'Апартаменты', 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/40000000/39660000/39658400/39658360/e814b79d_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.662974+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.662974+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.663968+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.663968+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1205959648, 'name': 'Отель ИМПЕРИАЛ ПАЛАС', 'starRating': 4.0, 'urls': {}, 'address': {'streetAddress': 'ул.\xa0Мясникова, 25', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220030', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 10.0, 'rating': '10,0', 'total': 8, 'scale': 10, 'badge': 'exceptional', 'badgeText': 'Великолепно'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,0 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '7,024 RUB', 'exactCurrent': 7024.47, 'old': '7,805 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '2 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|HRW|TESCO', 'coordinate': {'lat': 53.89881, 'lon': 27.54442}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 37654989, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/38000000/37660000/37655000/37654989/90c1fc93_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.663968+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.663968+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.663968+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.664974+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 686979, 'name': 'Отель «Виктория на Замковой»', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'Замковая ул., 25–27А', 'extendedAddress': 'Центральный район', 'locality': 'Минск', 'postalCode': '220004', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 9.0, 'rating': '9,0', 'total': 57, 'scale': 10, 'badge': 'superb', 'badgeText': 'Потрясающе'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,0 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '3,640 RUB', 'exactCurrent': 3639.82, 'old': '3,831 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': False}, 'type': 'Dual'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '1 остался в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.90715, 'lon': 27.54892}, 'roomsLeft': 1, 'providerType': 'LOCAL', 'supplierHotelId': 18117795, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/19000000/18120000/18117800/18117795/3c326d40_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.664974+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.664974+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.664974+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.664974+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 623860032, 'name': 'Хостел In Tower', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'Ул. Кирова, 1', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220006', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 6.4, 'rating': '6,4', 'total': 6, 'scale': 10, 'badge': 'good', 'badgeText': 'Хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,0 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '1,149 RUB', 'exactCurrent': 1149.42, 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {}, 'messaging': {'scarcity': '2 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.89195, 'lon': 27.55142}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 19464376, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/20000000/19470000/19464400/19464376/04e1e479_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.665968+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.665968+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.665968+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.665968+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1270066496, 'name': 'Апартаменты iRent.by Nemiga', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'ул. Мясникова, 34', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220005', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'landmarks': [{'label': 'Центр города', 'distance': '1,1 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '9,962 RUB', 'exactCurrent': 9961.62, 'old': '11,068 RUB', 'info': 'за 1 квартиру на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '2 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13', 'coordinate': {'lat': 53.897635, 'lon': 27.54312}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 39658328, 'vrBadge': 'Апартаменты', 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/40000000/39660000/39658400/39658328/6ad64077_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.666969+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.666969+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.666969+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.666969+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 602480, 'name': 'DoubleTree by Hilton Hotel Minsk', 'starRating': 5.0, 'urls': {}, 'address': {'streetAddress': 'просп. Победителей, 9', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220004', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 9.2, 'rating': '9,2', 'total': 170, 'scale': 10, 'badge': 'superb', 'badgeText': 'Потрясающе'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,1 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '13,126 RUB', 'exactCurrent': 13126.07, 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {}, 'messaging': {'scarcity': '1 остался в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|TESCO', 'coordinate': {'lat': 53.90775, 'lon': 27.54767}, 'roomsLeft': 1, 'providerType': 'LOCAL', 'supplierHotelId': 15468826, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/16000000/15470000/15468900/15468826/b6342ed7_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.667969+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.667969+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.667969+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.667969+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 396138, 'name': 'Апартаменты Aparton', 'starRating': 3.5, 'urls': {}, 'address': {'streetAddress': 'пр-т Независимости, 31, оф. 26', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220000', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 6.8, 'rating': '6,8', 'total': 19, 'scale': 10, 'badge': 'good', 'badgeText': 'Хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,2 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '30 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '11,437 RUB', 'exactCurrent': 11437.41, 'old': '12,629 RUB', 'info': 'за 1 квартиру на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': True}, 'type': 'Dual'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '3 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.908082, 'lon': 27.571835}, 'roomsLeft': 3, 'providerType': 'LOCAL', 'supplierHotelId': 4727804, 'vrBadge': 'Апарт-отель', 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/5000000/4730000/4727900/4727804/61a496bb_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.668969+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.668969+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.668969+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.668969+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1260174656, 'name': 'iRent.by, пл. Победы', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'пр-т Независимости, 31', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220005', 'region': 'Минская обл.', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'landmarks': [{'label': 'Центр города', 'distance': '1,2 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '30 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '17,795 RUB', 'exactCurrent': 17794.74, 'old': '19,732 RUB', 'info': 'за 1 квартиру на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '2 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13', 'coordinate': {'lat': 53.908316, 'lon': 27.572062}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 39349208, 'vrBadge': 'Апарт-отель', 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/40000000/39350000/39349300/39349208/191b93cc_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.669974+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.669974+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.669974+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.669974+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 535905, 'name': 'Апартаменты Престиж', 'starRating': 3.5, 'urls': {}, 'address': {'streetAddress': 'пр-т Независимости, 31', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220000', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.2, 'rating': '8,2', 'total': 13, 'scale': 10, 'badge': 'very-good', 'badgeText': 'Очень хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,3 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '30 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '12,913 RUB', 'exactCurrent': 12913.11, 'info': 'за 1 квартиру на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': False}, 'type': 'Dual'}, 'neighbourhood': 'Центр Минска', 'deals': {}, 'messaging': {'scarcity': '1 остался в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|HRW|TESCO', 'coordinate': {'lat': 53.90828, 'lon': 27.5725}, 'roomsLeft': 1, 'providerType': 'LOCAL', 'supplierHotelId': 11723507, 'vrBadge': 'Апарт-отель', 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/12000000/11730000/11723600/11723507/28d2a4b9_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.669974+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.670969+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.670969+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.670969+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1054696192, 'name': 'Отель «40 лет Победы»', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'ул. Азгура, 3', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220088', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.0, 'rating': '8,0', 'total': 36, 'scale': 10, 'badge': 'very-good', 'badgeText': 'Очень хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,4 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '30 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '2,277 RUB', 'exactCurrent': 2276.79, 'old': '2,679 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Захарова-Пулихова', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '2 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO|showGoldContentDescriptionHCOMUSenUS', 'coordinate': {'lat': 53.9007, 'lon': 27.5809}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 32928006, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/33000000/32930000/32928100/32928006/4eedbc92_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.670969+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.670969+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.671969+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.671969+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 566628, 'name': 'Отель «Юбилейный»', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'просп. Победителей, 19', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220004', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.4, 'rating': '8,4', 'total': 126, 'scale': 10, 'badge': 'very-good', 'badgeText': 'Очень хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,5 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '2,874 RUB', 'exactCurrent': 2873.54, 'old': '3,193 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': True}, 'type': 'Dual'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '3 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.91168, 'lon': 27.54659}, 'roomsLeft': 3, 'providerType': 'LOCAL', 'supplierHotelId': 13232388, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/14000000/13240000/13232400/13232388/aa888d6d_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.671969+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.671969+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.671969+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.672969+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 558653, 'name': 'Отель Hampton by Hilton Минск, Центр города', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'ул. Толстого, 8', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220007', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 9.0, 'rating': '9,0', 'total': 127, 'scale': 10, 'badge': 'superb', 'badgeText': 'Потрясающе'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,6 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '5,676 RUB', 'exactCurrent': 5676.13, 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Октябрьский район', 'deals': {}, 'messaging': {}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|TESCO|showGoldContentDescriptionHCOMUSenUS', 'coordinate': {'lat': 53.88892, 'lon': 27.54449}, 'providerType': 'LOCAL', 'supplierHotelId': 12732620, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/13000000/12740000/12732700/12732620/a78f89e2_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.672969+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.672969+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.672969+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.672969+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1063878816, 'name': 'Отель Willing', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'ул. Ленина, 50', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220030', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 9.0, 'rating': '9,0', 'total': 48, 'scale': 10, 'badge': 'superb', 'badgeText': 'Потрясающе'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,7 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '30 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '2,427 RUB', 'exactCurrent': 2426.81, 'old': '2,696 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Ленинский район', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '2 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.8895, 'lon': 27.5773}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 33214963, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/34000000/33220000/33215000/33214963/fcb385cc_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.673974+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.673974+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.673974+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.673974+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 17661472, 'name': 'Отель «Беларусь»', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'ул.\xa0Сторожёвская, 15', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220002', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.6, 'rating': '8,6', 'total': 165, 'scale': 10, 'badge': 'fabulous', 'badgeText': 'Превосходно'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,8 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '3,448 RUB', 'exactCurrent': 3448.26, 'old': '3,831 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '1 остался в нашем приложении'}, 'badging': {'hotelBadge': {'type': 'vipBasic', 'label': 'VIP'}}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.91546, 'lon': 27.54983}, 'roomsLeft': 1, 'providerType': 'LOCAL', 'supplierHotelId': 520671, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/1000000/530000/520700/520671/7df511e7_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:03:14.673974+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:03:14.674969+0300 | DEBUG | check.py | check_method_best_deal | Проверка цены и дистанции для метода best_deal | 93
+2021-10-17T15:03:14.674969+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:03:14.674969+0300 | DEBUG | methods_request.py | hotel_withdrawal | Производится вывод найденых отелей пользователю | 138
+2021-10-17T15:03:17.341222+0300 | DEBUG | handlers.py | menu | Пользователь зашел в меню | 98
+2021-10-17T15:04:23.155792+0300 | DEBUG | check.py | check_user | Проверка пользователя по Id | 11
+2021-10-17T15:04:23.156792+0300 | DEBUG | main.py | get_text | Записали метод сортировки: /lowprice | 31
+2021-10-17T15:04:26.125148+0300 | DEBUG | city_selection.py | choice_city | Записали название города от пользователя | 22
+2021-10-17T15:04:26.126149+0300 | DEBUG | check.py | check_choice_city | Проверка ввода названия города | 80
+2021-10-17T15:04:29.411533+0300 | DEBUG | city_selection.py | choice_city | Сделали запрос на получение списка названий городов, статус ответа:200 | 29
+2021-10-17T15:04:29.823033+0300 | DEBUG | city_selection.py | list_cities | Создаем список городов | 54
+2021-10-17T15:04:29.823033+0300 | DEBUG | city_selection.py | create_keyboard | Создание клавиатуры с выбором города | 72
+2021-10-17T15:04:34.604991+0300 | DEBUG | check.py | check_hotel_count | Проверка ввода количество отелей | 40
+2021-10-17T15:04:34.604991+0300 | DEBUG | handlers.py | hotel_count | Записываем количество отелей | 34
+2021-10-17T15:04:39.443189+0300 | DEBUG | methods_request.py | low_price | Сдедали запрос на поиск отелей по сортировке low_price, статус ответа: 200 | 29
+2021-10-17T15:04:39.894213+0300 | DEBUG | methods_request.py | search_hotels | Производится поиск отелей | 101
+2021-10-17T15:04:39.895213+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:04:39.895213+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1213608128, 'name': 'Хостел Urban', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'ул. Заборского, 3', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220029', 'region': 'Минская обл.', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 9.4, 'rating': '9,4', 'total': 15, 'scale': 10, 'badge': 'exceptional', 'badgeText': 'Великолепно'}, 'landmarks': [{'label': 'Центр города', 'distance': '0,5 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '31 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '690 RUB', 'exactCurrent': 689.65, 'old': '766 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': True}, 'type': 'Dual'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13', 'coordinate': {'lat': 53.90454, 'lon': 27.56152}, 'providerType': 'LOCAL', 'supplierHotelId': 37894004, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/38000000/37900000/37894100/37894004/a7da9815_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:04:39.895213+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:04:39.896214+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:04:39.896214+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 623860032, 'name': 'Хостел In Tower', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'Ул. Кирова, 1', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220006', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 6.4, 'rating': '6,4', 'total': 6, 'scale': 10, 'badge': 'good', 'badgeText': 'Хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,0 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '1,149 RUB', 'exactCurrent': 1149.42, 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {}, 'messaging': {'scarcity': '2 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.89195, 'lon': 27.55142}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 19464376, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/20000000/19470000/19464400/19464376/04e1e479_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:04:39.896214+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:04:39.896214+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:04:39.897213+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 547499, 'name': 'Гостиница «Ай-Ти Тайм»', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'ул. Академика Купревича, 4', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220141', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 7.6, 'rating': '7,6', 'total': 16, 'scale': 10, 'badge': 'good', 'badgeText': 'Хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '8,8 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '23 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '1,315 RUB', 'exactCurrent': 1314.8, 'old': '1,461 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Первомайский район', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '1 остался в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.92698, 'lon': 27.68501}, 'roomsLeft': 1, 'providerType': 'LOCAL', 'supplierHotelId': 12362064, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/13000000/12370000/12362100/12362064/35c9c320_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:04:39.897213+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:04:39.897213+0300 | DEBUG | methods_request.py | hotel_withdrawal | Производится вывод найденых отелей пользователю | 138
+2021-10-17T15:04:40.205231+0300 | DEBUG | handlers.py | menu | Пользователь зашел в меню | 98
+2021-10-17T15:04:40.206231+0300 | ERROR | methods_request.py | hotel_withdrawal | An error has been caught in function 'hotel_withdrawal', process 'MainProcess' (5208), thread 'WorkerThread2' (7452): | 158
+Traceback (most recent call last):
+
+  File "C:\Python39\lib\threading.py", line 912, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000000AC2AE31CA0>
+    └ <WorkerThread(WorkerThread2, started daemon 7452)>
+
+  File "C:\Python39\lib\threading.py", line 954, in _bootstrap_inner
+    self.run()
+    │    └ <function WorkerThread.run at 0x000000AC2AEAB4C0>
+    └ <WorkerThread(WorkerThread2, started daemon 7452)>
+
+  File "C:\Python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    │     │       └ {}
+    │     └ (<telebot.types.Message object at 0x000000AC2D8B6820>,)
+    └ <function hotel_count at 0x000000AC2D896C10>
+
+  File "C:\python_basic\python_basic_diploma\handlers.py", line 42, in hotel_count
+    low_price(message)
+    │         └ <telebot.types.Message object at 0x000000AC2D8B6820>
+    └ <function low_price at 0x000000AC2D888820>
+
+  File "C:\python_basic\python_basic_diploma\bot_requests\methods_request.py", line 31, in low_price
+    search_hotels(message, response)
+    │             │        └ <Response [200]>
+    │             └ <telebot.types.Message object at 0x000000AC2D8B6820>
+    └ <function search_hotels at 0x000000AC2D896280>
+
+  File "C:\python_basic\python_basic_diploma\bot_requests\methods_request.py", line 126, in search_hotels
+    hotel_withdrawal(message, hotel_list)
+    │                │        └ [{'hotel_id': 1213608128, 'Имя': 'Хостел Urban', 'Адрес': 'ул. Заборского, 3', 'Количество звёзд': 2.0, 'До центра города': '...
+    │                └ <telebot.types.Message object at 0x000000AC2D8B6820>
+    └ <function hotel_withdrawal at 0x000000AC2D8965E0>
+
+> File "C:\python_basic\python_basic_diploma\bot_requests\methods_request.py", line 158, in hotel_withdrawal
+    handlers.menu(message)
+    │        │    └ <telebot.types.Message object at 0x000000AC2D8B6820>
+    │        └ <function menu at 0x000000AC2D88B670>
+    └ <module 'handlers' from 'C:\\python_basic\\python_basic_diploma\\handlers.py'>
+
+  File "C:\python_basic\python_basic_diploma\handlers.py", line 109, in menu
+    bot.send_message(message.chat.id, reply_markup=menu_markup)
+    │   │            │       │    │                └ <telebot.types.ReplyKeyboardMarkup object at 0x000000AC2D8B6430>
+    │   │            │       │    └ 405700427
+    │   │            │       └ <telebot.types.Chat object at 0x000000AC2D8B6A60>
+    │   │            └ <telebot.types.Message object at 0x000000AC2D8B6820>
+    │   └ <function TeleBot.send_message at 0x000000AC2D16EA60>
+    └ <telebot.TeleBot object at 0x000000AC2D271460>
+
+TypeError: send_message() missing 1 required positional argument: 'text'
+2021-10-17T15:05:26.471971+0300 | DEBUG | check.py | check_user | Проверка пользователя по Id | 11
+2021-10-17T15:05:26.472972+0300 | DEBUG | main.py | get_text | Записали метод сортировки: /lowprice | 31
+2021-10-17T15:05:34.711756+0300 | DEBUG | city_selection.py | choice_city | Записали название города от пользователя | 22
+2021-10-17T15:05:34.712757+0300 | DEBUG | check.py | check_choice_city | Проверка ввода названия города | 80
+2021-10-17T15:05:37.808444+0300 | DEBUG | city_selection.py | choice_city | Сделали запрос на получение списка названий городов, статус ответа:200 | 29
+2021-10-17T15:05:37.905648+0300 | DEBUG | city_selection.py | list_cities | Создаем список городов | 54
+2021-10-17T15:05:37.906649+0300 | DEBUG | city_selection.py | create_keyboard | Создание клавиатуры с выбором города | 72
+2021-10-17T15:05:46.290580+0300 | DEBUG | check.py | check_hotel_count | Проверка ввода количество отелей | 40
+2021-10-17T15:05:46.290580+0300 | DEBUG | handlers.py | hotel_count | Записываем количество отелей | 34
+2021-10-17T15:05:50.616298+0300 | DEBUG | methods_request.py | low_price | Сдедали запрос на поиск отелей по сортировке low_price, статус ответа: 200 | 29
+2021-10-17T15:05:51.932364+0300 | DEBUG | methods_request.py | search_hotels | Производится поиск отелей | 101
+2021-10-17T15:05:51.933364+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:05:51.933364+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1213608128, 'name': 'Hostel Urban', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'Zaborskogo st., 3', 'extendedAddress': '', 'locality': 'Minsk', 'postalCode': '220029', 'region': 'Minsk Region', 'countryName': 'Belarus', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 9.4, 'rating': '9.4', 'total': 15, 'scale': 10, 'badge': 'exceptional', 'badgeText': 'Exceptional'}, 'landmarks': [{'label': 'City center', 'distance': '0.3 miles'}, {'label': 'Minsk (MSQ-Minsk Intl.)', 'distance': '19 miles'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '$8', 'exactCurrent': 8.1, 'old': '$9', 'fullyBundledPricePerStay': 'total $10'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': True}, 'type': 'Dual'}, 'neighbourhood': 'Minsk City Centre', 'deals': {'secretPrice': {'dealText': 'Save more with Secret Prices'}, 'priceReasoning': 'DRR-443'}, 'messaging': {}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13', 'coordinate': {'lat': 53.90454, 'lon': 27.56152}, 'providerType': 'LOCAL', 'supplierHotelId': 37894004, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/38000000/37900000/37894100/37894004/a7da9815_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:05:51.933364+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:05:51.934365+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:05:51.934365+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 623860032, 'name': 'In Tower Hostel', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'Ulitsa Kirova 1', 'extendedAddress': '', 'locality': 'Minsk', 'postalCode': '220006', 'region': '', 'countryName': 'Belarus', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 6.4, 'rating': '6.4', 'total': 6, 'scale': 10, 'badge': 'good', 'badgeText': 'Good'}, 'landmarks': [{'label': 'City center', 'distance': '0.7 miles'}, {'label': 'Minsk (MSQ-Minsk Intl.)', 'distance': '20 miles'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '$14', 'exactCurrent': 13.5, 'fullyBundledPricePerStay': 'total $16'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Minsk City Centre', 'deals': {}, 'messaging': {'scarcity': '2 left on our app'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.89195, 'lon': 27.55142}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 19464376, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/20000000/19470000/19464400/19464376/04e1e479_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:05:51.934365+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:05:51.934365+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:05:51.934365+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 547499, 'name': 'IT Time Hotel', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'Kuprevicha Street, 4', 'extendedAddress': 'Pervomaysky District', 'locality': 'Minsk', 'postalCode': '220141', 'region': '', 'countryName': 'Belarus', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 7.6, 'rating': '7.6', 'total': 16, 'scale': 10, 'badge': 'good', 'badgeText': 'Good'}, 'landmarks': [{'label': 'City center', 'distance': '5.5 miles'}, {'label': 'Minsk (MSQ-Minsk Intl.)', 'distance': '14 miles'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '$15', 'exactCurrent': 15.44, 'old': '$17', 'fullyBundledPricePerStay': 'total $19'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Pervomaysky District', 'deals': {'secretPrice': {'dealText': 'Save more with Secret Prices'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '1 left on our app'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.92698, 'lon': 27.68501}, 'roomsLeft': 1, 'providerType': 'LOCAL', 'supplierHotelId': 12362064, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/13000000/12370000/12362100/12362064/35c9c320_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:05:51.935365+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:05:51.935365+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:05:51.935365+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 621234, 'name': 'Voyage Hotel', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'ul. Jakubowski, 52A', 'extendedAddress': '', 'locality': 'Minsk', 'postalCode': '220018', 'region': '', 'countryName': 'Belarus', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.4, 'rating': '8.4', 'total': 10, 'scale': 10, 'badge': 'very-good', 'badgeText': 'Very Good'}, 'landmarks': [{'label': 'City center', 'distance': '4.4 miles'}, {'label': 'Minsk (MSQ-Minsk Intl.)', 'distance': '24 miles'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '$23', 'exactCurrent': 22.5, 'fullyBundledPricePerStay': 'total $27'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'HC'}, 'neighbourhood': 'Frunzensky District', 'deals': {}, 'messaging': {'scarcity': '1 left on our app'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.89468, 'lon': 27.45083}, 'roomsLeft': 1, 'providerType': 'LOCAL', 'supplierHotelId': 15948765, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/16000000/15950000/15948800/15948765/79407e54_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:05:51.935365+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:05:51.936363+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:05:51.936363+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1054696192, 'name': '40 Let Pobedy Hotel', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'Azgura Street 3', 'extendedAddress': '', 'locality': 'Minsk', 'postalCode': '220088', 'region': '', 'countryName': 'Belarus', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.0, 'rating': '8.0', 'total': 36, 'scale': 10, 'badge': 'very-good', 'badgeText': 'Very Good'}, 'landmarks': [{'label': 'City center', 'distance': '0.9 miles'}, {'label': 'Minsk (MSQ-Minsk Intl.)', 'distance': '19 miles'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '$27', 'exactCurrent': 26.74, 'old': '$31', 'fullyBundledPricePerStay': 'total $32'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Zakharova-Pulikhova', 'deals': {'secretPrice': {'dealText': 'Save more with Secret Prices'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '2 left on our app'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO|showGoldContentDescriptionHCOMUSenUS', 'coordinate': {'lat': 53.9007, 'lon': 27.5809}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 32928006, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/33000000/32930000/32928100/32928006/4eedbc92_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:05:51.936363+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:05:51.936363+0300 | DEBUG | methods_request.py | hotel_withdrawal | Производится вывод найденых отелей пользователю | 138
+2021-10-17T15:05:52.493588+0300 | DEBUG | handlers.py | menu | Пользователь зашел в меню | 98
+2021-10-17T15:05:52.557592+0300 | ERROR | methods_request.py | hotel_withdrawal | An error has been caught in function 'hotel_withdrawal', process 'MainProcess' (19492), thread 'WorkerThread2' (12504): | 158
+Traceback (most recent call last):
+
+  File "C:\Python39\lib\threading.py", line 912, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000000F738B91CA0>
+    └ <WorkerThread(WorkerThread2, started daemon 12504)>
+
+  File "C:\Python39\lib\threading.py", line 954, in _bootstrap_inner
+    self.run()
+    │    └ <function WorkerThread.run at 0x000000F738C0B4C0>
+    └ <WorkerThread(WorkerThread2, started daemon 12504)>
+
+  File "C:\Python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    │     │       └ {}
+    │     └ (<telebot.types.Message object at 0x000000F73BA085E0>,)
+    └ <function hotel_count at 0x000000F73B5E7C10>
+
+  File "C:\python_basic\python_basic_diploma\handlers.py", line 42, in hotel_count
+    low_price(message)
+    │         └ <telebot.types.Message object at 0x000000F73BA085E0>
+    └ <function low_price at 0x000000F73B5D8820>
+
+  File "C:\python_basic\python_basic_diploma\bot_requests\methods_request.py", line 31, in low_price
+    search_hotels(message, response)
+    │             │        └ <Response [200]>
+    │             └ <telebot.types.Message object at 0x000000F73BA085E0>
+    └ <function search_hotels at 0x000000F73B5E7280>
+
+  File "C:\python_basic\python_basic_diploma\bot_requests\methods_request.py", line 126, in search_hotels
+    hotel_withdrawal(message, hotel_list)
+    │                │        └ [{'hotel_id': 1213608128, 'Имя': 'Hostel Urban', 'Адрес': 'Zaborskogo st., 3', 'Количество звёзд': 2.0, 'До центра города': '...
+    │                └ <telebot.types.Message object at 0x000000F73BA085E0>
+    └ <function hotel_withdrawal at 0x000000F73B5E75E0>
+
+> File "C:\python_basic\python_basic_diploma\bot_requests\methods_request.py", line 158, in hotel_withdrawal
+    handlers.menu(message)
+    │        │    └ <telebot.types.Message object at 0x000000F73BA085E0>
+    │        └ <function menu at 0x000000F73B5E0670>
+    └ <module 'handlers' from 'C:\\python_basic\\python_basic_diploma\\handlers.py'>
+
+  File "C:\python_basic\python_basic_diploma\handlers.py", line 109, in menu
+    bot.send_message(message.chat.id, text=None, reply_markup=menu_markup)
+    │   │            │       │    │                           └ <telebot.types.ReplyKeyboardMarkup object at 0x000000F73B5EAA30>
+    │   │            │       │    └ 405700427
+    │   │            │       └ <telebot.types.Chat object at 0x000000F73BA08610>
+    │   │            └ <telebot.types.Message object at 0x000000F73BA085E0>
+    │   └ <function TeleBot.send_message at 0x000000F73AEBEA60>
+    └ <telebot.TeleBot object at 0x000000F73AFDD190>
+
+  File "C:\Python39\lib\site-packages\telebot\__init__.py", line 924, in send_message
+    apihelper.send_message(
+    │         └ <function send_message at 0x000000F73AE8CC10>
+    └ <module 'telebot.apihelper' from 'C:\\Python39\\lib\\site-packages\\telebot\\apihelper.py'>
+
+  File "C:\Python39\lib\site-packages\telebot\apihelper.py", line 257, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           │             │      │                  └ {'chat_id': '405700427', 'text': None, 'reply_markup': '{"keyboard": [[{"text": "/bestdeal"}], [{"text": "/lowprice"}, {"text...
+           │             │      └ 'sendMessage'
+           │             └ '1996977100:AAHb6S8m4COxizhTBwDlKSZ7k1Zvtp1ehis'
+           └ <function _make_request at 0x000000F73A8CC700>
+
+  File "C:\Python39\lib\site-packages\telebot\apihelper.py", line 145, in _make_request
+    json_result = _check_result(method_name, result)
+                  │             │            └ <Response [400]>
+                  │             └ 'sendMessage'
+                  └ <function _check_result at 0x000000F73AE8C820>
+
+  File "C:\Python39\lib\site-packages\telebot\apihelper.py", line 172, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+          │                    │            │       └ {'ok': False, 'error_code': 400, 'description': 'Bad Request: message text is empty'}
+          │                    │            └ <Response [400]>
+          │                    └ 'sendMessage'
+          └ <class 'telebot.apihelper.ApiTelegramException'>
+
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+2021-10-17T15:06:16.933273+0300 | DEBUG | check.py | check_user | Проверка пользователя по Id | 11
+2021-10-17T15:06:16.934272+0300 | DEBUG | main.py | get_text | Записали метод сортировки: /lowprice | 31
+2021-10-17T15:06:21.424279+0300 | DEBUG | city_selection.py | choice_city | Записали название города от пользователя | 22
+2021-10-17T15:06:21.424279+0300 | DEBUG | check.py | check_choice_city | Проверка ввода названия города | 80
+2021-10-17T15:06:24.641282+0300 | DEBUG | city_selection.py | choice_city | Сделали запрос на получение списка названий городов, статус ответа:200 | 29
+2021-10-17T15:06:24.913466+0300 | DEBUG | city_selection.py | list_cities | Создаем список городов | 54
+2021-10-17T15:06:24.913466+0300 | DEBUG | city_selection.py | create_keyboard | Создание клавиатуры с выбором города | 72
+2021-10-17T15:06:34.201524+0300 | DEBUG | check.py | check_hotel_count | Проверка ввода количество отелей | 40
+2021-10-17T15:06:34.202523+0300 | DEBUG | handlers.py | hotel_count | Записываем количество отелей | 34
+2021-10-17T15:06:40.152283+0300 | DEBUG | methods_request.py | low_price | Сдедали запрос на поиск отелей по сортировке low_price, статус ответа: 200 | 29
+2021-10-17T15:06:40.612309+0300 | DEBUG | methods_request.py | search_hotels | Производится поиск отелей | 101
+2021-10-17T15:06:40.612309+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:06:40.613310+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1213608128, 'name': 'Хостел Urban', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'ул. Заборского, 3', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220029', 'region': 'Минская обл.', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 9.4, 'rating': '9,4', 'total': 15, 'scale': 10, 'badge': 'exceptional', 'badgeText': 'Великолепно'}, 'landmarks': [{'label': 'Центр города', 'distance': '0,5 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '31 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '690 RUB', 'exactCurrent': 689.65, 'old': '766 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': True}, 'type': 'Dual'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13', 'coordinate': {'lat': 53.90454, 'lon': 27.56152}, 'providerType': 'LOCAL', 'supplierHotelId': 37894004, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/38000000/37900000/37894100/37894004/a7da9815_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:06:40.613310+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:06:40.613310+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:06:40.614310+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 623860032, 'name': 'Хостел In Tower', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'Ул. Кирова, 1', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220006', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 6.4, 'rating': '6,4', 'total': 6, 'scale': 10, 'badge': 'good', 'badgeText': 'Хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,0 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '1,149 RUB', 'exactCurrent': 1149.42, 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {}, 'messaging': {'scarcity': '2 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.89195, 'lon': 27.55142}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 19464376, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/20000000/19470000/19464400/19464376/04e1e479_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:06:40.615315+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:06:40.615315+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:06:40.615315+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 547499, 'name': 'Гостиница «Ай-Ти Тайм»', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'ул. Академика Купревича, 4', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220141', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 7.6, 'rating': '7,6', 'total': 16, 'scale': 10, 'badge': 'good', 'badgeText': 'Хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '8,8 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '23 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '1,315 RUB', 'exactCurrent': 1314.8, 'old': '1,461 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Первомайский район', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '1 остался в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.92698, 'lon': 27.68501}, 'roomsLeft': 1, 'providerType': 'LOCAL', 'supplierHotelId': 12362064, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/13000000/12370000/12362100/12362064/35c9c320_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:06:40.615315+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:06:40.616308+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:06:40.616308+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 621234, 'name': 'Отель «Вояж»', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'ул.\xa0 Якубовского, 52А', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220018', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.4, 'rating': '8,4', 'total': 10, 'scale': 10, 'badge': 'very-good', 'badgeText': 'Очень хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '7,1 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '38 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '1,916 RUB', 'exactCurrent': 1915.69, 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'HC'}, 'neighbourhood': 'Фрунзенский район', 'deals': {}, 'messaging': {'scarcity': '1 остался в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.89468, 'lon': 27.45083}, 'roomsLeft': 1, 'providerType': 'LOCAL', 'supplierHotelId': 15948765, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/16000000/15950000/15948800/15948765/79407e54_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:06:40.616308+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:06:40.616308+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:06:40.616308+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1054696192, 'name': 'Отель «40 лет Победы»', 'starRating': 3.0, 'urls': {}, 'address': {'streetAddress': 'ул. Азгура, 3', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220088', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 8.0, 'rating': '8,0', 'total': 36, 'scale': 10, 'badge': 'very-good', 'badgeText': 'Очень хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,4 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '30 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '2,277 RUB', 'exactCurrent': 2276.79, 'old': '2,679 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Захарова-Пулихова', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {'scarcity': '2 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO|showGoldContentDescriptionHCOMUSenUS', 'coordinate': {'lat': 53.9007, 'lon': 27.5809}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 32928006, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/33000000/32930000/32928100/32928006/4eedbc92_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:06:40.617308+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:06:40.617308+0300 | DEBUG | methods_request.py | hotel_withdrawal | Производится вывод найденых отелей пользователю | 138
+2021-10-17T15:06:41.149566+0300 | DEBUG | handlers.py | menu | Пользователь зашел в меню | 98
+2021-10-17T15:06:41.212570+0300 | ERROR | methods_request.py | hotel_withdrawal | An error has been caught in function 'hotel_withdrawal', process 'MainProcess' (17904), thread 'WorkerThread2' (15204): | 158
+Traceback (most recent call last):
+
+  File "C:\Python39\lib\threading.py", line 912, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x0000001363511CA0>
+    └ <WorkerThread(WorkerThread2, started daemon 15204)>
+
+  File "C:\Python39\lib\threading.py", line 954, in _bootstrap_inner
+    self.run()
+    │    └ <function WorkerThread.run at 0x000000136358B4C0>
+    └ <WorkerThread(WorkerThread2, started daemon 15204)>
+
+  File "C:\Python39\lib\site-packages\telebot\util.py", line 82, in run
+    task(*args, **kwargs)
+    │     │       └ {}
+    │     └ (<telebot.types.Message object at 0x0000001366378700>,)
+    └ <function hotel_count at 0x0000001365F56CA0>
+
+  File "C:\python_basic\python_basic_diploma\handlers.py", line 42, in hotel_count
+    low_price(message)
+    │         └ <telebot.types.Message object at 0x0000001366378700>
+    └ <function low_price at 0x0000001365F478B0>
+
+  File "C:\python_basic\python_basic_diploma\bot_requests\methods_request.py", line 31, in low_price
+    search_hotels(message, response)
+    │             │        └ <Response [200]>
+    │             └ <telebot.types.Message object at 0x0000001366378700>
+    └ <function search_hotels at 0x0000001365F56310>
+
+  File "C:\python_basic\python_basic_diploma\bot_requests\methods_request.py", line 126, in search_hotels
+    hotel_withdrawal(message, hotel_list)
+    │                │        └ [{'hotel_id': 1213608128, 'Имя': 'Хостел Urban', 'Адрес': 'ул. Заборского, 3', 'Количество звёзд': 2.0, 'До центра города': '...
+    │                └ <telebot.types.Message object at 0x0000001366378700>
+    └ <function hotel_withdrawal at 0x0000001365F56670>
+
+> File "C:\python_basic\python_basic_diploma\bot_requests\methods_request.py", line 158, in hotel_withdrawal
+    handlers.menu(message)
+    │        │    └ <telebot.types.Message object at 0x0000001366378700>
+    │        └ <function menu at 0x0000001365F4B700>
+    └ <module 'handlers' from 'C:\\python_basic\\python_basic_diploma\\handlers.py'>
+
+  File "C:\python_basic\python_basic_diploma\handlers.py", line 109, in menu
+    bot.send_message(message.chat.id, '', reply_markup=menu_markup)
+    │   │            │       │    │                    └ <telebot.types.ReplyKeyboardMarkup object at 0x0000001365F75D30>
+    │   │            │       │    └ 405700427
+    │   │            │       └ <telebot.types.Chat object at 0x0000001366378640>
+    │   │            └ <telebot.types.Message object at 0x0000001366378700>
+    │   └ <function TeleBot.send_message at 0x000000136582EA60>
+    └ <telebot.TeleBot object at 0x0000001365931460>
+
+  File "C:\Python39\lib\site-packages\telebot\__init__.py", line 924, in send_message
+    apihelper.send_message(
+    │         └ <function send_message at 0x00000013657FCC10>
+    └ <module 'telebot.apihelper' from 'C:\\Python39\\lib\\site-packages\\telebot\\apihelper.py'>
+
+  File "C:\Python39\lib\site-packages\telebot\apihelper.py", line 257, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           │             │      │                  └ {'chat_id': '405700427', 'text': '', 'reply_markup': '{"keyboard": [[{"text": "/bestdeal"}], [{"text": "/lowprice"}, {"text":...
+           │             │      └ 'sendMessage'
+           │             └ '1996977100:AAHb6S8m4COxizhTBwDlKSZ7k1Zvtp1ehis'
+           └ <function _make_request at 0x000000136523C700>
+
+  File "C:\Python39\lib\site-packages\telebot\apihelper.py", line 145, in _make_request
+    json_result = _check_result(method_name, result)
+                  │             │            └ <Response [400]>
+                  │             └ 'sendMessage'
+                  └ <function _check_result at 0x00000013657FC820>
+
+  File "C:\Python39\lib\site-packages\telebot\apihelper.py", line 172, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+          │                    │            │       └ {'ok': False, 'error_code': 400, 'description': 'Bad Request: message text is empty'}
+          │                    │            └ <Response [400]>
+          │                    └ 'sendMessage'
+          └ <class 'telebot.apihelper.ApiTelegramException'>
+
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+2021-10-17T15:07:34.916524+0300 | DEBUG | check.py | check_user | Проверка пользователя по Id | 11
+2021-10-17T15:07:34.917524+0300 | DEBUG | main.py | get_text | Записали метод сортировки: /lowprice | 31
+2021-10-17T15:07:38.260774+0300 | DEBUG | city_selection.py | choice_city | Записали название города от пользователя | 22
+2021-10-17T15:07:38.261775+0300 | DEBUG | check.py | check_choice_city | Проверка ввода названия города | 80
+2021-10-17T15:07:42.797781+0300 | DEBUG | city_selection.py | choice_city | Сделали запрос на получение списка названий городов, статус ответа:200 | 29
+2021-10-17T15:07:42.979786+0300 | DEBUG | city_selection.py | list_cities | Создаем список городов | 54
+2021-10-17T15:07:42.980784+0300 | DEBUG | city_selection.py | create_keyboard | Создание клавиатуры с выбором города | 72
+2021-10-17T15:07:47.197190+0300 | DEBUG | check.py | check_hotel_count | Проверка ввода количество отелей | 40
+2021-10-17T15:07:47.197190+0300 | DEBUG | handlers.py | hotel_count | Записываем количество отелей | 34
+2021-10-17T15:07:52.017465+0300 | DEBUG | methods_request.py | low_price | Сдедали запрос на поиск отелей по сортировке low_price, статус ответа: 200 | 29
+2021-10-17T15:07:52.460487+0300 | DEBUG | methods_request.py | search_hotels | Производится поиск отелей | 101
+2021-10-17T15:07:52.460487+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:07:52.460487+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 1213608128, 'name': 'Хостел Urban', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'ул. Заборского, 3', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220029', 'region': 'Минская обл.', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 9.4, 'rating': '9,4', 'total': 15, 'scale': 10, 'badge': 'exceptional', 'badgeText': 'Великолепно'}, 'landmarks': [{'label': 'Центр города', 'distance': '0,5 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '31 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '690 RUB', 'exactCurrent': 689.65, 'old': '766 RUB', 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': True, 'noCCRequired': True}, 'type': 'Dual'}, 'neighbourhood': 'Центр Минска', 'deals': {'secretPrice': {'dealText': 'Экономьте больше с нашими секретными ценами!'}, 'priceReasoning': 'DRR-443'}, 'messaging': {}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13', 'coordinate': {'lat': 53.90454, 'lon': 27.56152}, 'providerType': 'LOCAL', 'supplierHotelId': 37894004, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/38000000/37900000/37894100/37894004/a7da9815_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:07:52.460487+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:07:52.461488+0300 | DEBUG | check.py | check_hotel | Производится проверка параметров отеля | 112
+2021-10-17T15:07:52.461488+0300 | DEBUG | methods_request.py | search_hotels | ======
+{'id': 623860032, 'name': 'Хостел In Tower', 'starRating': 2.0, 'urls': {}, 'address': {'streetAddress': 'Ул. Кирова, 1', 'extendedAddress': '', 'locality': 'Минск', 'postalCode': '220006', 'region': '', 'countryName': 'Беларусь', 'countryCode': 'by', 'obfuscate': False}, 'welcomeRewards': {'collect': True}, 'guestReviews': {'unformattedRating': 6.4, 'rating': '6,4', 'total': 6, 'scale': 10, 'badge': 'good', 'badgeText': 'Хорошо'}, 'landmarks': [{'label': 'Центр города', 'distance': '1,0 км'}, {'label': 'Минск (MSQ-Минск, международный)', 'distance': '32 км'}], 'geoBullets': [], 'ratePlan': {'price': {'current': '1,149 RUB', 'exactCurrent': 1149.42, 'info': 'за 1 номер на 1 сутки', 'summary': 'включая налоги и сборы'}, 'features': {'freeCancellation': False, 'paymentPreference': False, 'noCCRequired': False}, 'type': 'EC'}, 'neighbourhood': 'Центр Минска', 'deals': {}, 'messaging': {'scarcity': '2 осталось в нашем приложении'}, 'badging': {}, 'pimmsAttributes': 'DoubleStamps|D13|TESCO', 'coordinate': {'lat': 53.89195, 'lon': 27.55142}, 'roomsLeft': 2, 'providerType': 'LOCAL', 'supplierHotelId': 19464376, 'isAlternative': False, 'optimizedThumbUrls': {'srpDesktop': 'https://exp.cdn-hotels.com/hotels/20000000/19470000/19464400/19464376/04e1e479_z.jpg?impolicy=fcrop&w=250&h=140&q=high'}}
+===== | 104
+2021-10-17T15:07:52.465493+0300 | DEBUG | methods_request.py | search_hotels | Проверка отеля прошла успешно | 105
+2021-10-17T15:07:52.465493+0300 | DEBUG | methods_request.py | hotel_withdrawal | Производится вывод найденых отелей пользователю | 138
+2021-10-17T15:07:52.694499+0300 | DEBUG | handlers.py | menu | Пользователь зашел в меню | 98

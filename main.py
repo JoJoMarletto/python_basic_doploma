@@ -11,7 +11,7 @@ from loader import logger, bot
 from check import check_user
 
 
-TOKEN = '1979192716:AAFP0YX1jQ1wXq-RiRfRincg_MBAfuwy4Q0'
+TOKEN = '1996977100:AAHb6S8m4COxizhTBwDlKSZ7k1Zvtp1ehis'
 APP_URL = f'https://hotelhunter.herokuapp.com/{TOKEN}'
 server = Flask(__name__)
 
@@ -94,7 +94,7 @@ def get_message():
 @server.route('/')
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://hotelhunter.herokuapp.com/1979192716:AAFP0YX1jQ1wXq-RiRfRincg_MBAfuwy4Q0')
+    bot.set_webhook(url=APP_URL)
     return '!', 200
 
 

@@ -9,6 +9,7 @@ loguru = "*"
 flask = "*"
 python-decouple = "*"
 gevent = "*"
+python-dotenv = "*"
 
 [dev-packages]
 

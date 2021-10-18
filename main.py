@@ -1,8 +1,9 @@
+import time
+
+import telebot.types
 from telebot.types import Message, CallbackQuery
 from telebot import types
-import telebot.types
 from flask import Flask, request
-from decouple import config
 import os
 
 from bot_requests.city_selection import choice_city
@@ -12,6 +13,8 @@ from loader import logger, bot
 from check import check_user
 
 
+TOKEN = '1996977100:AAHb6S8m4COxizhTBwDlKSZ7k1Zvtp1ehis'
+APP_URL = f'https://hotelhunter.herokuapp.com/{TOKEN}'
 server = Flask(__name__)
 
 
@@ -82,7 +85,7 @@ def get_menu_button(call: CallbackQuery) -> None:
             bot.register_next_step_handler(call.message, hotel_count)
 
 
-@server.route('/' + config("TOKEN"), methods=['PORT'])
+@server.route('/' + TOKEN, methods=['PORT'])
 def get_message():
     json_string = request.get_data().decode('utf-8')
     update = telebot.types.Update.de_json(json_string)
@@ -93,9 +96,9 @@ def get_message():
 @server.route('/')
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url=f'{config("APP_URL")}{config("TOKEN")}')
+    bot.set_webhook(url=APP_URL)
     return '!', 200
 
 
-if __name__ == "__main__":
-    server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
+if __name__ == '__main__':
+    server.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))

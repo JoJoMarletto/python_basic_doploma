@@ -3,7 +3,6 @@ from telebot.types import Message, CallbackQuery
 from telebot import types
 from flask import Flask, request
 import os
-from gevent.pywsgi import WSGIServer
 
 from bot_requests.city_selection import choice_city
 from handlers import count_photo, hotel_count, menu
@@ -100,5 +99,4 @@ def webhook():
 
 
 if __name__ == '__main__':
-    http_server = WSGIServer(('', 5000), server)
-    http_server.serve_forever()
+    server.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))

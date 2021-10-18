@@ -11,7 +11,7 @@ from loader import logger, bot
 from check import check_user
 
 
-TOKEN = '1996977100:AAHb6S8m4COxizhTBwDlKSZ7k1Zvtp1ehis'
+TOKEN = '1979192716:AAFP0YX1jQ1wXq-RiRfRincg_MBAfuwy4Q0'
 APP_URL = f'https://hotelhunter.herokuapp.com/{TOKEN}'
 server = Flask(__name__)
 

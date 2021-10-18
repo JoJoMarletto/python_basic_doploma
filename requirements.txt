@@ -1,0 +1,4 @@
+pyTelegramBotAPI==4.1.1
+loguru==0.5.3
+Flask==2.0.2
+requests==git 2.26.0

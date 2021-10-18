@@ -1,5 +1,3 @@
-import time
-
 import telebot.types
 from telebot.types import Message, CallbackQuery
 from telebot import types
@@ -14,7 +12,7 @@ from check import check_user
 
 
 TOKEN = '1996977100:AAHb6S8m4COxizhTBwDlKSZ7k1Zvtp1ehis'
-APP_URL = f'https://hotelhunter.herokuapp.com/{TOKEN}'
+APP_URL = f'hotelhunter.herokuapp.com/{TOKEN}'
 server = Flask(__name__)
 
 
@@ -101,4 +99,4 @@ def webhook():
 
 
 if __name__ == '__main__':
-    server.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
+    server.run(threaded=True, host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))

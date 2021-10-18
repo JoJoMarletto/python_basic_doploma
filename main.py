@@ -94,7 +94,7 @@ def get_message():
 @server.route('/')
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://hotelhunter.herokuapp.com/1996977100:AAHb6S8m4COxizhTBwDlKSZ7k1Zvtp1ehis')
+    bot.set_webhook(url='https://hotelhunter.herokuapp.com/1979192716:AAFP0YX1jQ1wXq-RiRfRincg_MBAfuwy4Q0')
     return '!', 200
 
 

@@ -3,7 +3,6 @@ from telebot.types import Message, CallbackQuery
 from telebot import types
 from flask import Flask, request
 import os
-
 from bot_requests.city_selection import choice_city
 from handlers import count_photo, hotel_count, menu
 from users import User, users_dict

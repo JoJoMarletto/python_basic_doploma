@@ -8,6 +8,7 @@ pytelegrambotapi = "*"
 loguru = "*"
 flask = "*"
 python-decouple = "*"
+gevent = "*"
 
 [dev-packages]
 

@@ -12,7 +12,7 @@ from check import check_user
 
 
 TOKEN = '1996977100:AAHb6S8m4COxizhTBwDlKSZ7k1Zvtp1ehis'
-APP_URL = f'hotelhunter.herokuapp.com/{TOKEN}'
+APP_URL = f'https://hotelhunter.herokuapp.com/{TOKEN}'
 server = Flask(__name__)
 
 
@@ -94,7 +94,7 @@ def get_message():
 @server.route('/')
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url=APP_URL)
+    bot.set_webhook(url='https://hotelhunter.herokuapp.com/1996977100:AAHb6S8m4COxizhTBwDlKSZ7k1Zvtp1ehis')
     return '!', 200
 
 

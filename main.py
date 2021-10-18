@@ -83,7 +83,7 @@ def get_menu_button(call: CallbackQuery) -> None:
             bot.register_next_step_handler(call.message, hotel_count)
 
 
-@server.route('/' + TOKEN, methods=['PORT'])
+@server.route('/' + TOKEN, methods=['PORT', 'POST', 'GET'])
 def get_message():
     json_string = request.get_data().decode('utf-8')
     update = telebot.types.Update.de_json(json_string)

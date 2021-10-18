@@ -100,18 +100,5 @@ def get_menu_button(call: CallbackQuery) -> None:
             bot.register_next_step_handler(call.message, hotel_count)
 
 
-@logger.catch
-def telegram_bot_runner() -> None:
-    """
-    Функция для запуска бота
-    """
-    while True:
-        try:
-            bot.polling(none_stop=True)
-        except Exception:
-            bot.stop_polling()
-            time.sleep(3)
-
-
 if __name__ == '__main__':
     server.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))

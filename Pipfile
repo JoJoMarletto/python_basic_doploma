@@ -4,12 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pytelegrambotapi = "*"
-loguru = "*"
-flask = "*"
-python-decouple = "*"
+pytelegrambotapi = "4.1.1"
+loguru = "0.5.3"
+Flask = "2.0.2"
+python-decouple = "3.4"
 gevent = "*"
 python-dotenv = "*"
+requests = "2.26.0"
 
 [dev-packages]
 
